@@ -26,7 +26,8 @@ const ALIASES = { nb: "no", nn: "no", iw: "he", tl: "fil", in: "id" };
 
 // Map a browser language tag to one of the languages the site has.
 function pickLanguage(tag) {
-  const [rawBase, region = ""] = String(tag || "en").replace("-", "_").split("_");
+  if (!tag) return null;
+  const [rawBase, region = ""] = String(tag).replace("-", "_").split("_");
   const base = ALIASES[rawBase.toLowerCase()] || rawBase.toLowerCase();
   const full = region ? base + "_" + region.toUpperCase() : base;
   if (LANGS[full]) return full;
@@ -66,24 +67,33 @@ function storedLanguage() {
   try { return localStorage.getItem("language"); } catch (e) { return null; }
 }
 
-const select = document.getElementById("language");
-Object.keys(LANGS)
-  .sort((a, b) => LANGS[a].localeCompare(LANGS[b]))
-  .forEach((code) => select.add(new Option(LANGS[code], code)));
+// A page can limit its languages with <html data-langs="en,tr">; other pages offer all of them.
+const allowed = (document.documentElement.dataset.langs || "").split(",").filter((code) => LANGS[code]);
+const offered = allowed.length ? allowed : Object.keys(LANGS);
+const usable = (code) => (code && offered.includes(code) ? code : null);
 
-const fromUrl = new URLSearchParams(location.search).get("lang");
-const saved = storedLanguage();
-const initial = (fromUrl && pickLanguage(fromUrl)) || (LANGS[saved] ? saved : browserLanguage());
-select.value = initial;
-applyLanguage(initial);
-select.addEventListener("change", () => {
-  try { localStorage.setItem("language", select.value); } catch (e) {}
-  applyLanguage(select.value);
-});
+const select = document.getElementById("language");
+if (select) {
+  offered
+    .slice()
+    .sort((a, b) => LANGS[a].localeCompare(LANGS[b]))
+    .forEach((code) => select.add(new Option(LANGS[code], code)));
+
+  const fromUrl = pickLanguage(new URLSearchParams(location.search).get("lang") || "");
+  const initial = usable(fromUrl) || usable(storedLanguage()) || usable(browserLanguage()) || "en";
+  select.value = initial;
+  applyLanguage(initial);
+  select.addEventListener("change", () => {
+    try { localStorage.setItem("language", select.value); } catch (e) {}
+    applyLanguage(select.value);
+  });
+}
 
 // "Add to Chrome" buttons appear only once the store link is filled in.
-document.querySelectorAll("[data-store-link]").forEach((link) => {
-  if (SITE.STORE_URL) { link.href = SITE.STORE_URL; link.hidden = false; }
+document.querySelectorAll("[data-store-link], [data-store-band]").forEach((el) => {
+  if (!SITE.STORE_URL) return;
+  if (el.hasAttribute("data-store-link")) el.href = SITE.STORE_URL;
+  el.hidden = false;
 });
 
 // Video. With data-autoplay on the section it starts muted as soon as the page opens.

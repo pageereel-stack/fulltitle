@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>YouTube Full Title For Videos is installed</title>
-<meta name="robots" content="noindex">
 <meta name="description" content="YouTube Full Title For Videos now shows video titles on YouTube in full.">
+<meta name="robots" content="noindex">
 <link rel="canonical" href="https://pageereel-stack.github.io/fulltitle/install.html">
 <link rel="icon" type="image/png" href="icon32.png">
 <meta property="og:title" content="YouTube Full Title For Videos is installed">
@@ -17,54 +17,70 @@
 <link rel="stylesheet" href="site.css">
 </head>
 <body>
-<main>
-  <header>
+<header class="site">
+  <div class="wrap bar">
     <a class="brand" href="./"><img src="icon128.png" alt=""><span>YouTube Full Title For Videos</span></a>
-    <label class="lang">
-      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.500 2.600 3.800 5.600 3.800 9s-1.300 6.400-3.800 9c-2.500-2.600-3.800-5.600-3.800-9S9.500 5.600 12 3z"/></svg>
-      <select id="language" aria-label="Language"></select>
-    </label>
-  </header>
-
-  <section id="video" data-autoplay hidden>
-    <div id="player"></div>
-    <p class="under">
-      <button id="sound" type="button" hidden>
-        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.500v5h3.500L12 18.500v-13L7.500 9.500z"/><path d="M15.500 9a4.200 4.200 0 0 1 0 6M18 6.500a7.800 7.800 0 0 1 0 11"/></svg>
-        <span data-i18n="soundOn">Turn sound on</span>
-      </button>
-      <a id="watch-link" href="https://www.youtube.com/" target="_blank" rel="noopener" data-i18n="watchOnYouTube">Watch on YouTube</a>
-    </p>
-  </section>
-
-  <h1 data-i18n="welcomeTitle">YouTube Full Title For Videos is installed</h1>
-  <p class="lead" data-i18n="welcomeLead">YouTube Full Title For Videos now shows video titles on YouTube in full instead of cutting them off after two lines.</p>
-
-  <div class="compare">
-    <div class="sample before">
-      <div class="tag" data-i18n="labelBefore">Before</div>
-      <div class="thumb"></div>
-      <p class="title" data-i18n="sampleTitle">How I Built a Tiny Cabin in the Woods With Hand Tools Only, Start to Finish in 30 Days (Full Build, No Talking)</p>
-    </div>
-    <div class="sample after">
-      <div class="tag" data-i18n="labelAfter">After</div>
-      <div class="thumb"></div>
-      <p class="title" data-i18n="sampleTitle">How I Built a Tiny Cabin in the Woods With Hand Tools Only, Start to Finish in 30 Days (Full Build, No Talking)</p>
+    <div class="right">
+      <label class="lang"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.500 2.600 3.800 5.600 3.800 9s-1.300 6.400-3.800 9c-2.500-2.600-3.800-5.600-3.800-9S9.500 5.600 12 3z"/></svg><select id="language" aria-label="Language"></select></label>
+      <a class="cta small" data-store-link href="#" target="_blank" rel="noopener" data-i18n="addToChrome" hidden>Add to Chrome</a>
     </div>
   </div>
+</header>
+<main>
+  <div class="wrap narrow page">
+    <section id="video" data-autoplay hidden>
+      <div id="player"></div>
+      <p class="under">
+        <button id="sound" type="button" hidden>
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.500v5h3.500L12 18.500v-13L7.500 9.500z"/><path d="M15.500 9a4.200 4.200 0 0 1 0 6M18 6.500a7.800 7.800 0 0 1 0 11"/></svg>
+          <span data-i18n="soundOn">Turn sound on</span>
+        </button>
+        <a id="watch-link" href="https://www.youtube.com/" target="_blank" rel="noopener" data-i18n="watchOnYouTube">Watch on YouTube</a>
+      </p>
+    </section>
 
-  <h2 data-i18n="tipsHeading">Good to know</h2>
-  <ul>
-    <li data-i18n="tipRefresh">Refresh any YouTube tabs that were already open.</li>
-    <li data-i18n="tipWhere">Works on the home page, search results, channel pages, playlists and the suggestions next to a video.</li>
-    <li data-i18n="tipPrivacy">Nothing to set up and no account needed.</li>
-  </ul>
+    <h1 data-i18n="welcomeTitle">YouTube Full Title For Videos is installed</h1>
+    <p class="lead" data-i18n="welcomeLead">YouTube Full Title For Videos now shows video titles on YouTube in full instead of cutting them off after two lines.</p>
 
-  <a class="cta end" href="https://www.youtube.com/" data-i18n="openYouTube">Open YouTube</a>
+    <div class="compare">
+      <div class="sample before">
+        <div class="tag" data-i18n="labelBefore">Before</div>
+        <div class="thumb"></div>
+        <p class="title" data-i18n="sampleTitle">How I Built a Tiny Cabin in the Woods With Hand Tools Only, Start to Finish in 30 Days (Full Build, No Talking)</p>
+      </div>
+      <div class="sample after">
+        <div class="tag" data-i18n="labelAfter">After</div>
+        <div class="thumb"></div>
+        <p class="title" data-i18n="sampleTitle">How I Built a Tiny Cabin in the Woods With Hand Tools Only, Start to Finish in 30 Days (Full Build, No Talking)</p>
+      </div>
+    </div>
+
+    <h2 class="sub" data-i18n="tipsHeading">Good to know</h2>
+    <ul class="tips">
+      <li data-i18n="tipRefresh">Refresh any YouTube tabs that were already open.</li>
+      <li data-i18n="tipWhere">Works on the home page, search results, channel pages, playlists and the suggestions next to a video.</li>
+      <li data-i18n="tipPrivacy">Nothing to set up and no account needed.</li>
+    </ul>
+
+    <a class="cta end" href="https://www.youtube.com/" data-i18n="openYouTube">Open YouTube</a>
+  </div>
 </main>
-<footer>
-  <p>YouTube Full Title For Videos is an independent project. It is not affiliated with, endorsed by or sponsored by YouTube or Google LLC.</p>
-  <p class="links"><a href="privacy.html">Privacy</a><a href="support.html">Support</a><a href="https://github.com/pageereel-stack/fulltitle/issues" target="_blank" rel="noopener">GitHub</a></p>
+<footer class="site">
+  <div class="wrap cols">
+    <div class="about">
+      <a class="brand" href="./"><img src="icon128.png" alt=""><span>YouTube Full Title For Videos</span></a>
+      
+    </div>
+    <div class="col row">
+      <a href="./">Home</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+    </div>
+  </div>
+  <div class="wrap legal">
+    <p>YouTube Full Title For Videos is an independent project. It is not affiliated with, endorsed by or sponsored by YouTube or Google LLC.</p>
+    <p>&copy; 2026 YouTube Full Title For Videos. <span>All rights reserved.</span></p>
+  </div>
 </footer>
 <script src="site.js"></script>
 </body>
