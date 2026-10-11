@@ -68,3 +68,12 @@ li { padding: 14px 0; border-bottom: 1px solid var(--line); }
 footer { max-width: 760px; margin: 0 auto; padding: 0 20px 48px; color: var(--muted); font-size: 13px; }
 footer p { margin: 0 0 6px; }
 @media (max-width: 560px) { .compare { grid-template-columns: 1fr; } h1 { font-size: 28px; } main { padding-top: 24px; } .brand span { display: none; } }
+
+/* Text pages: privacy and support */
+.doc p { margin: 0 0 14px; }
+.doc .lead { margin-bottom: 8px; }
+.doc ul { border-top: 0; list-style: disc; padding-inline-start: 22px; margin: 0 0 14px; }
+.doc li { border-bottom: 0; padding: 4px 0; }
+.doc code { background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; font-size: 14px; }
+.doc .cta { color: var(--accent-text); margin: 6px 0; }
+footer .links { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 10px; }
