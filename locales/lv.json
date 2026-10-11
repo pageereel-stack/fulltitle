@@ -1,0 +1,17 @@
+{
+ "extName": "YouTube Full Title For Videos",
+ "extDescription": "YouTube Full Title For Videos: Rāda pilnus YouTube video nosaukumus, tos neapgriežot.",
+ "welcomeTitle": "YouTube Full Title For Videos ir instalēts",
+ "welcomeLead": "YouTube Full Title For Videos tagad rāda pilnus YouTube video nosaukumus, nevis apgriež tos pēc divām rindām.",
+ "labelBefore": "Pirms",
+ "labelAfter": "Pēc",
+ "videoHeading": "Skatiet, kā tas darbojas",
+ "watchOnYouTube": "Skatīties pakalpojumā YouTube",
+ "tipsHeading": "Der zināt",
+ "tipRefresh": "Atsvaidziniet jau atvērtās YouTube cilnes.",
+ "tipWhere": "Darbojas sākumlapā, meklēšanas rezultātos, kanālu lapās, atskaņošanas sarakstos un ieteikumos blakus video.",
+ "tipPrivacy": "Nekas nav jāiestata, un konts nav vajadzīgs.",
+ "openYouTube": "Atvērt YouTube",
+ "soundOn": "Ieslēgt skaņu",
+ "addToChrome": "Pievienot pārlūkam Chrome"
+}

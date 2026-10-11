@@ -1,0 +1,18 @@
+{
+ "extName": "YouTube Full Title For Videos",
+ "extDescription": "YouTube Full Title For Videos: YouTube'da kesilen video başlıklarının tamamını gösterir.",
+ "welcomeTitle": "YouTube Full Title For Videos kuruldu",
+ "welcomeLead": "YouTube Full Title For Videos, YouTube'daki video başlıklarını artık iki satırdan sonra kesmeden tam olarak gösteriyor.",
+ "labelBefore": "Önce",
+ "labelAfter": "Sonra",
+ "sampleTitle": "Sadece El Aletleriyle Ormanda Küçük Bir Kulübe Yaptım: Baştan Sona 30 Günde Tüm Yapım Süreci (Konuşmasız)",
+ "videoHeading": "Nasıl çalıştığını izleyin",
+ "watchOnYouTube": "YouTube'da izle",
+ "tipsHeading": "Bilmeniz gerekenler",
+ "tipRefresh": "Zaten açık olan YouTube sekmelerini yenileyin.",
+ "tipWhere": "Ana sayfada, arama sonuçlarında, kanal sayfalarında, oynatma listelerinde ve videonun yanındaki önerilerde çalışır.",
+ "tipPrivacy": "Ayar yapmanız ya da hesap açmanız gerekmez.",
+ "openYouTube": "YouTube'u aç",
+ "soundOn": "Sesi aç",
+ "addToChrome": "Chrome'a ekle"
+}

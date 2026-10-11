@@ -1,0 +1,17 @@
+{
+ "extName": "YouTube Full Title For Videos",
+ "extDescription": "YouTube Full Title For Videos: YouTube の動画タイトルを省略せずに全文表示します。",
+ "welcomeTitle": "YouTube Full Title For Videos をインストールしました",
+ "welcomeLead": "YouTube Full Title For Videos は、YouTube の動画タイトルを 2 行で省略せずに全文表示します。",
+ "labelBefore": "変更前",
+ "labelAfter": "変更後",
+ "videoHeading": "使い方を見る",
+ "watchOnYouTube": "YouTube で見る",
+ "tipsHeading": "知っておきたいこと",
+ "tipRefresh": "すでに開いている YouTube のタブは再読み込みしてください。",
+ "tipWhere": "ホーム、検索結果、チャンネルページ、再生リスト、動画の横のおすすめで動作します。",
+ "tipPrivacy": "設定もアカウントも不要です。",
+ "openYouTube": "YouTube を開く",
+ "soundOn": "音声をオンにする",
+ "addToChrome": "Chrome に追加"
+}

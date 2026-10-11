@@ -1,0 +1,17 @@
+{
+ "extName": "YouTube Full Title For Videos",
+ "extDescription": "YouTube Full Title For Videos: Huonyesha vichwa kamili vya video za YouTube badala ya kuvikata.",
+ "welcomeTitle": "YouTube Full Title For Videos imesakinishwa",
+ "welcomeLead": "YouTube Full Title For Videos sasa huonyesha vichwa kamili vya video za YouTube badala ya kuvikata baada ya mistari miwili.",
+ "labelBefore": "Kabla",
+ "labelAfter": "Baada",
+ "videoHeading": "Tazama jinsi inavyofanya kazi",
+ "watchOnYouTube": "Tazama kwenye YouTube",
+ "tipsHeading": "Vizuri kujua",
+ "tipRefresh": "Onyesha upya vichupo vya YouTube vilivyokuwa vimefunguliwa.",
+ "tipWhere": "Hufanya kazi kwenye ukurasa wa mwanzo, matokeo ya utafutaji, kurasa za chaneli, orodha za kucheza na mapendekezo kando ya video.",
+ "tipPrivacy": "Hakuna cha kuweka na hakuna akaunti inayohitajika.",
+ "openYouTube": "Fungua YouTube",
+ "soundOn": "Washa sauti",
+ "addToChrome": "Ongeza kwenye Chrome"
+}

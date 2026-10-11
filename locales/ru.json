@@ -1,0 +1,17 @@
+{
+ "extName": "YouTube Full Title For Videos",
+ "extDescription": "YouTube Full Title For Videos: Показывает названия видео на YouTube полностью, не обрезая их.",
+ "welcomeTitle": "Расширение YouTube Full Title For Videos установлено",
+ "welcomeLead": "YouTube Full Title For Videos теперь показывает названия видео на YouTube полностью, не обрезая их после двух строк.",
+ "labelBefore": "До",
+ "labelAfter": "После",
+ "videoHeading": "Посмотрите, как это работает",
+ "watchOnYouTube": "Смотреть на YouTube",
+ "tipsHeading": "Полезно знать",
+ "tipRefresh": "Обновите уже открытые вкладки YouTube.",
+ "tipWhere": "Работает на главной странице, в результатах поиска, на страницах каналов, в плейлистах и в рекомендациях рядом с видео.",
+ "tipPrivacy": "Ничего настраивать не нужно, аккаунт не требуется.",
+ "openYouTube": "Открыть YouTube",
+ "soundOn": "Включить звук",
+ "addToChrome": "Добавить в Chrome"
+}

@@ -1,0 +1,18 @@
+{
+ "extName": "YouTube Full Title For Videos",
+ "extDescription": "YouTube Full Title For Videos: Shows full video titles on YouTube instead of cutting them off.",
+ "welcomeTitle": "YouTube Full Title For Videos is installed",
+ "welcomeLead": "YouTube Full Title For Videos now shows video titles on YouTube in full instead of cutting them off after two lines.",
+ "labelBefore": "Before",
+ "labelAfter": "After",
+ "sampleTitle": "How I Built a Tiny Cabin in the Woods With Hand Tools Only, Start to Finish in 30 Days (Full Build, No Talking)",
+ "videoHeading": "See how it works",
+ "watchOnYouTube": "Watch on YouTube",
+ "tipsHeading": "Good to know",
+ "tipRefresh": "Refresh any YouTube tabs that were already open.",
+ "tipWhere": "Works on the home page, search results, channel pages, playlists and the suggestions next to a video.",
+ "tipPrivacy": "Nothing to set up and no account needed.",
+ "openYouTube": "Open YouTube",
+ "soundOn": "Turn sound on",
+ "addToChrome": "Add to Chrome"
+}

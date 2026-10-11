@@ -1,0 +1,17 @@
+{
+ "extName": "YouTube Full Title For Videos",
+ "extDescription": "YouTube Full Title For Videos: A YouTube-videók teljes címét mutatja, levágás nélkül.",
+ "welcomeTitle": "A(z) YouTube Full Title For Videos telepítve van",
+ "welcomeLead": "A(z) YouTube Full Title For Videos mostantól teljes egészében megjeleníti a YouTube-videók címét, és nem vágja le két sor után.",
+ "labelBefore": "Előtte",
+ "labelAfter": "Utána",
+ "videoHeading": "Nézd meg, hogyan működik",
+ "watchOnYouTube": "Megtekintés a YouTube-on",
+ "tipsHeading": "Jó tudni",
+ "tipRefresh": "Frissítsd a már megnyitott YouTube-lapokat.",
+ "tipWhere": "Működik a kezdőlapon, a keresési találatokban, a csatornaoldalakon, a lejátszási listákban és a videó melletti javaslatoknál.",
+ "tipPrivacy": "Nincs mit beállítani, és fiók sem kell.",
+ "openYouTube": "YouTube megnyitása",
+ "soundOn": "Hang bekapcsolása",
+ "addToChrome": "Hozzáadás a Chrome-hoz"
+}

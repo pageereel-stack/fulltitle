@@ -1,0 +1,17 @@
+{
+ "extName": "YouTube Full Title For Videos",
+ "extDescription": "YouTube Full Title For Videos: YouTube 동영상 제목을 자르지 않고 전체로 표시합니다.",
+ "welcomeTitle": "YouTube Full Title For Videos 설치 완료",
+ "welcomeLead": "이제 YouTube Full Title For Videos이(가) YouTube 동영상 제목을 두 줄에서 자르지 않고 전체로 표시합니다.",
+ "labelBefore": "이전",
+ "labelAfter": "이후",
+ "videoHeading": "작동 방식 보기",
+ "watchOnYouTube": "YouTube에서 보기",
+ "tipsHeading": "알아 두세요",
+ "tipRefresh": "이미 열려 있는 YouTube 탭은 새로고침하세요.",
+ "tipWhere": "홈, 검색 결과, 채널 페이지, 재생목록, 동영상 옆 추천 영상에서 작동합니다.",
+ "tipPrivacy": "설정도 계정도 필요 없습니다.",
+ "openYouTube": "YouTube 열기",
+ "soundOn": "소리 켜기",
+ "addToChrome": "Chrome에 추가"
+}

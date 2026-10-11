@@ -1,0 +1,17 @@
+{
+ "extName": "YouTube Full Title For Videos",
+ "extDescription": "YouTube Full Title For Videos: 完整顯示 YouTube 影片標題，不再截斷。",
+ "welcomeTitle": "YouTube Full Title For Videos 已安裝",
+ "welcomeLead": "YouTube Full Title For Videos 現在會完整顯示 YouTube 影片標題，不再於兩行後截斷。",
+ "labelBefore": "之前",
+ "labelAfter": "之後",
+ "videoHeading": "瞭解運作方式",
+ "watchOnYouTube": "在 YouTube 上觀看",
+ "tipsHeading": "注意事項",
+ "tipRefresh": "請重新整理已開啟的 YouTube 分頁。",
+ "tipWhere": "適用於首頁、搜尋結果、頻道頁面、播放清單以及影片旁的推薦內容。",
+ "tipPrivacy": "不需設定，也不需帳戶。",
+ "openYouTube": "開啟 YouTube",
+ "soundOn": "開啟聲音",
+ "addToChrome": "加到 Chrome"
+}

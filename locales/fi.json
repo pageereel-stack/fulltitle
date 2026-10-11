@@ -1,0 +1,17 @@
+{
+ "extName": "YouTube Full Title For Videos",
+ "extDescription": "YouTube Full Title For Videos: Näyttää YouTube-videoiden otsikot kokonaan katkaisematta niitä.",
+ "welcomeTitle": "YouTube Full Title For Videos on asennettu",
+ "welcomeLead": "YouTube Full Title For Videos näyttää nyt YouTube-videoiden otsikot kokonaan eikä katkaise niitä kahden rivin jälkeen.",
+ "labelBefore": "Ennen",
+ "labelAfter": "Jälkeen",
+ "videoHeading": "Katso, miten se toimii",
+ "watchOnYouTube": "Katso YouTubessa",
+ "tipsHeading": "Hyvä tietää",
+ "tipRefresh": "Päivitä jo avoinna olleet YouTube-välilehdet.",
+ "tipWhere": "Toimii etusivulla, hakutuloksissa, kanavasivuilla, soittolistoissa ja videon vieressä olevissa ehdotuksissa.",
+ "tipPrivacy": "Ei asetuksia eikä tiliä tarvita.",
+ "openYouTube": "Avaa YouTube",
+ "soundOn": "Laita ääni päälle",
+ "addToChrome": "Lisää Chromeen"
+}

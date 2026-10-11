@@ -1,0 +1,17 @@
+{
+ "extName": "YouTube Full Title For Videos",
+ "extDescription": "YouTube Full Title For Videos: Visar hela videotitlar på YouTube i stället för att korta av dem.",
+ "welcomeTitle": "YouTube Full Title For Videos är installerat",
+ "welcomeLead": "YouTube Full Title For Videos visar nu hela videotitlar på YouTube i stället för att korta av dem efter två rader.",
+ "labelBefore": "Före",
+ "labelAfter": "Efter",
+ "videoHeading": "Se hur det fungerar",
+ "watchOnYouTube": "Titta på YouTube",
+ "tipsHeading": "Bra att veta",
+ "tipRefresh": "Läs in YouTube-flikar som redan var öppna på nytt.",
+ "tipWhere": "Fungerar på startsidan, i sökresultat, på kanalsidor, i spellistor och bland förslagen bredvid en video.",
+ "tipPrivacy": "Inget att ställa in och inget konto behövs.",
+ "openYouTube": "Öppna YouTube",
+ "soundOn": "Slå på ljudet",
+ "addToChrome": "Lägg till i Chrome"
+}

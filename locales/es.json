@@ -1,0 +1,17 @@
+{
+ "extName": "YouTube Full Title For Videos",
+ "extDescription": "YouTube Full Title For Videos: Muestra los títulos completos de los vídeos de YouTube en lugar de cortarlos.",
+ "welcomeTitle": "YouTube Full Title For Videos está instalado",
+ "welcomeLead": "YouTube Full Title For Videos ahora muestra completos los títulos de los vídeos de YouTube en lugar de cortarlos tras dos líneas.",
+ "labelBefore": "Antes",
+ "labelAfter": "Después",
+ "videoHeading": "Mira cómo funciona",
+ "watchOnYouTube": "Ver en YouTube",
+ "tipsHeading": "Conviene saber",
+ "tipRefresh": "Actualiza las pestañas de YouTube que ya estaban abiertas.",
+ "tipWhere": "Funciona en la página principal, los resultados de búsqueda, las páginas de canales, las listas de reproducción y las sugerencias junto a un vídeo.",
+ "tipPrivacy": "No hay nada que configurar ni hace falta una cuenta.",
+ "openYouTube": "Abrir YouTube",
+ "soundOn": "Activar el sonido",
+ "addToChrome": "Añadir a Chrome"
+}

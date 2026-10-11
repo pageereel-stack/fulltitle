@@ -1,0 +1,17 @@
+{
+ "extName": "YouTube Full Title For Videos",
+ "extDescription": "YouTube Full Title For Videos: Zobrazuje celé názvy videí na YouTube místo jejich zkracování.",
+ "welcomeTitle": "Rozšíření YouTube Full Title For Videos je nainstalováno",
+ "welcomeLead": "YouTube Full Title For Videos teď zobrazuje názvy videí na YouTube celé, místo aby je po dvou řádcích zkracovalo.",
+ "labelBefore": "Před",
+ "labelAfter": "Po",
+ "videoHeading": "Podívejte se, jak to funguje",
+ "watchOnYouTube": "Přehrát na YouTube",
+ "tipsHeading": "Dobré vědět",
+ "tipRefresh": "Obnovte již otevřené karty YouTube.",
+ "tipWhere": "Funguje na domovské stránce, ve výsledcích vyhledávání, na stránkách kanálů, v playlistech a v návrzích vedle videa.",
+ "tipPrivacy": "Není potřeba nic nastavovat ani mít účet.",
+ "openYouTube": "Otevřít YouTube",
+ "soundOn": "Zapnout zvuk",
+ "addToChrome": "Přidat do Chromu"
+}

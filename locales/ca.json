@@ -1,0 +1,17 @@
+{
+ "extName": "YouTube Full Title For Videos",
+ "extDescription": "YouTube Full Title For Videos: Mostra els títols complets dels vídeos de YouTube en lloc de tallar-los.",
+ "welcomeTitle": "YouTube Full Title For Videos està instal·lat",
+ "welcomeLead": "YouTube Full Title For Videos ara mostra complets els títols dels vídeos de YouTube en lloc de tallar-los després de dues línies.",
+ "labelBefore": "Abans",
+ "labelAfter": "Després",
+ "videoHeading": "Mira com funciona",
+ "watchOnYouTube": "Mira-ho a YouTube",
+ "tipsHeading": "Val la pena saber-ho",
+ "tipRefresh": "Actualitza les pestanyes de YouTube que ja estaven obertes.",
+ "tipWhere": "Funciona a la pàgina d'inici, als resultats de cerca, a les pàgines de canals, a les llistes de reproducció i als suggeriments al costat d'un vídeo.",
+ "tipPrivacy": "No cal configurar res ni tenir cap compte.",
+ "openYouTube": "Obre YouTube",
+ "soundOn": "Activa el so",
+ "addToChrome": "Afegeix a Chrome"
+}

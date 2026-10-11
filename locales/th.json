@@ -1,0 +1,17 @@
+{
+ "extName": "YouTube Full Title For Videos",
+ "extDescription": "YouTube Full Title For Videos: แสดงชื่อวิดีโอบน YouTube แบบเต็มโดยไม่ตัดทอน",
+ "welcomeTitle": "ติดตั้ง YouTube Full Title For Videos แล้ว",
+ "welcomeLead": "ตอนนี้ YouTube Full Title For Videos จะแสดงชื่อวิดีโอบน YouTube แบบเต็ม แทนการตัดหลังสองบรรทัด",
+ "labelBefore": "ก่อน",
+ "labelAfter": "หลัง",
+ "videoHeading": "ดูวิธีการทำงาน",
+ "watchOnYouTube": "ดูบน YouTube",
+ "tipsHeading": "ข้อควรทราบ",
+ "tipRefresh": "โหลดแท็บ YouTube ที่เปิดอยู่แล้วซ้ำอีกครั้ง",
+ "tipWhere": "ใช้งานได้ในหน้าแรก ผลการค้นหา หน้าช่อง เพลย์ลิสต์ และวิดีโอแนะนำข้างวิดีโอ",
+ "tipPrivacy": "ไม่ต้องตั้งค่าและไม่ต้องมีบัญชี",
+ "openYouTube": "เปิด YouTube",
+ "soundOn": "เปิดเสียง",
+ "addToChrome": "เพิ่มใน Chrome"
+}

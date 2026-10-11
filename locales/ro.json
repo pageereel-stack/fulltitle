@@ -1,0 +1,17 @@
+{
+ "extName": "YouTube Full Title For Videos",
+ "extDescription": "YouTube Full Title For Videos: Afișează titlurile complete ale videoclipurilor YouTube în loc să le trunchieze.",
+ "welcomeTitle": "Extensia YouTube Full Title For Videos este instalată",
+ "welcomeLead": "YouTube Full Title For Videos afișează acum titlurile videoclipurilor de pe YouTube în întregime, în loc să le taie după două rânduri.",
+ "labelBefore": "Înainte",
+ "labelAfter": "După",
+ "videoHeading": "Vezi cum funcționează",
+ "watchOnYouTube": "Vizionează pe YouTube",
+ "tipsHeading": "Bine de știut",
+ "tipRefresh": "Reîncarcă filele YouTube deja deschise.",
+ "tipWhere": "Funcționează pe pagina principală, în rezultatele căutării, pe paginile canalelor, în playlisturi și la sugestiile de lângă un videoclip.",
+ "tipPrivacy": "Fără configurare și fără cont.",
+ "openYouTube": "Deschide YouTube",
+ "soundOn": "Pornește sunetul",
+ "addToChrome": "Adaugă în Chrome"
+}
