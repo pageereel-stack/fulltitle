@@ -1,100 +1,10 @@
-// Settings for the whole site. This is the only block you need to edit.
+// Settings. This is the only block you need to edit.
 const SITE = {
   // YouTube video ID (the part after "v=" in the video URL). Leave empty to hide the video.
   VIDEO_ID: "VjYqrZFnRLY",
   // Volume used when a visitor turns the sound on, from 0 to 100.
-  VIDEO_VOLUME: 20,
-  // Chrome Web Store link of the extension. Leave empty until it is published;
-  // the "Add to Chrome" button stays hidden while this is empty.
-  STORE_URL: ""
+  VIDEO_VOLUME: 20
 };
-
-const LANGS = {
-  am: "አማርኛ", ar: "العربية", bg: "Български", bn: "বাংলা", ca: "Català", cs: "Čeština",
-  da: "Dansk", de: "Deutsch", el: "Ελληνικά", en: "English", es: "Español",
-  es_419: "Español (Latinoamérica)", et: "Eesti", fa: "فارسی", fi: "Suomi", fil: "Filipino",
-  fr: "Français", gu: "ગુજરાતી", he: "עברית", hi: "हिन्दी", hr: "Hrvatski", hu: "Magyar",
-  id: "Indonesia", it: "Italiano", ja: "日本語", kn: "ಕನ್ನಡ", ko: "한국어", lt: "Lietuvių",
-  lv: "Latviešu", ml: "മലയാളം", mr: "मराठी", ms: "Melayu", nl: "Nederlands", no: "Norsk",
-  pl: "Polski", pt_BR: "Português (Brasil)", pt_PT: "Português (Portugal)", ro: "Română",
-  ru: "Русский", sk: "Slovenčina", sl: "Slovenščina", sr: "Српски", sv: "Svenska",
-  sw: "Kiswahili", ta: "தமிழ்", te: "తెలుగు", th: "ไทย", tr: "Türkçe", uk: "Українська",
-  vi: "Tiếng Việt", zh_CN: "简体中文", zh_TW: "繁體中文"
-};
-const RTL = ["ar", "he", "fa"];
-const ALIASES = { nb: "no", nn: "no", iw: "he", tl: "fil", in: "id" };
-
-// Map a browser language tag to one of the languages the site has.
-function pickLanguage(tag) {
-  if (!tag) return null;
-  const [rawBase, region = ""] = String(tag).replace("-", "_").split("_");
-  const base = ALIASES[rawBase.toLowerCase()] || rawBase.toLowerCase();
-  const full = region ? base + "_" + region.toUpperCase() : base;
-  if (LANGS[full]) return full;
-  if (base === "zh") return ["TW", "HK", "MO", "HANT"].includes(region.toUpperCase()) ? "zh_TW" : "zh_CN";
-  if (base === "pt") return region.toUpperCase() === "PT" ? "pt_PT" : "pt_BR";
-  if (base === "es" && region && region.toUpperCase() !== "ES") return "es_419";
-  return LANGS[base] ? base : null;
-}
-
-function browserLanguage() {
-  const list = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language];
-  for (const tag of list) {
-    const code = pickLanguage(tag);
-    if (code) return code;
-  }
-  return "en";
-}
-
-const loadMessages = (code) => fetch("locales/" + code + ".json").then((res) => res.json());
-
-let english = null;
-async function applyLanguage(code) {
-  english = english || (await loadMessages("en"));
-  const chosen = code === "en" ? english : await loadMessages(code).catch(() => english);
-  const text = (key) => chosen[key] || english[key] || "";
-  document.querySelectorAll("[data-i18n]").forEach((el) => {
-    const value = text(el.dataset.i18n);
-    if (value) el.textContent = value;
-  });
-  document.documentElement.lang = code.replace("_", "-");
-  document.documentElement.dir = RTL.includes(code) ? "rtl" : "ltr";
-  const video = document.querySelector("#player iframe");
-  if (video) video.title = text("videoHeading");
-}
-
-function storedLanguage() {
-  try { return localStorage.getItem("language"); } catch (e) { return null; }
-}
-
-// A page can limit its languages with <html data-langs="en,tr">; other pages offer all of them.
-const allowed = (document.documentElement.dataset.langs || "").split(",").filter((code) => LANGS[code]);
-const offered = allowed.length ? allowed : Object.keys(LANGS);
-const usable = (code) => (code && offered.includes(code) ? code : null);
-
-const select = document.getElementById("language");
-if (select) {
-  offered
-    .slice()
-    .sort((a, b) => LANGS[a].localeCompare(LANGS[b]))
-    .forEach((code) => select.add(new Option(LANGS[code], code)));
-
-  const fromUrl = pickLanguage(new URLSearchParams(location.search).get("lang") || "");
-  const initial = usable(fromUrl) || usable(storedLanguage()) || usable(browserLanguage()) || "en";
-  select.value = initial;
-  applyLanguage(initial);
-  select.addEventListener("change", () => {
-    try { localStorage.setItem("language", select.value); } catch (e) {}
-    applyLanguage(select.value);
-  });
-}
-
-// "Add to Chrome" buttons appear only once the store link is filled in.
-document.querySelectorAll("[data-store-link], [data-store-band]").forEach((el) => {
-  if (!SITE.STORE_URL) return;
-  if (el.hasAttribute("data-store-link")) el.href = SITE.STORE_URL;
-  el.hidden = false;
-});
 
 // Video. With data-autoplay on the section it starts muted as soon as the page opens.
 const section = document.getElementById("video");
